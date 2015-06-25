@@ -10,6 +10,18 @@ hr {
 	clear:both;
 }
 
+h1 {
+	font-family: 'ralewaylight', Helvetica, sans-serif;
+	font-weight: 600;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-family: 'ralewaylight', Helvetica, sans-serif;
+	font-weight: 600;
+	letter-spacing: -1.5px;
+}
+
 .circle {
     font-weight:bold;
     font-style: italic;
@@ -30,7 +42,7 @@ hr {
  }
 
  .slogan {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-family: 'kaushan_scriptregular',"Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-style:italic;
   padding-top: 26px;
 }
@@ -43,4 +55,5 @@ hr {
  color:black;
  font-size:25px;
  border-bottom: 1px solid #dfdfdf;	
+ font-family: 'ralewaythin'
 }
