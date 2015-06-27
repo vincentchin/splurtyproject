@@ -22,6 +22,10 @@ h2 {
 	letter-spacing: -1.5px;
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
 .circle {
     font-weight:bold;
     font-style: italic;
@@ -31,7 +35,7 @@ h2 {
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
-    margin: 10px 10px;
+    margin: 10px auto;
     text-align: center;
     color: #FFF;
     font-size: 10px;
@@ -62,7 +66,6 @@ h2 {
 .links a {
  color:black;
  font-size:25px;
- border-bottom: 1px solid #dfdfdf;	
  font-family: 'ralewaythin', sans-serif;
 }
 
