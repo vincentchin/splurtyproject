@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Splurty</title>
+  <title>GAS</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -21,13 +21,13 @@
 	 <% end %>
  	</div>
  	<div class="col-xs-5 slogan">
-      Speaking the truth about GAS (Guitar Acquisition Syndrome)
+      The real struggle of GAS (Gear Acquisition Syndrome)
  	</div>
  	<div class="col-xs-2 links">
  	  <%= link_to 'Contribute', new_quote_path %>
  	</div>
  	<div class="col-xs-2 links">
- 	  <%= link_to 'About', '#' %>	
+ 	  <%= link_to 'About', about_path %>	
  	</div>
 
  </header>
@@ -49,7 +49,7 @@
 <div class="footer">
 	<div class="container">
 		<div class="col-xs-6">
-			<%= link_to "This isn't enough, I need more", root_path, :class => 'next-quote' %>
+			<%= link_to "I know this all too well, what else?", root_path, :class => 'next-quote' %>
 		</div>
 		<div class="col-xs-6 footer-blurb">
 			Created in NYC by <a href="https://github.com/vincentchin">Vincent Chin</a>
