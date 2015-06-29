@@ -20,14 +20,13 @@
 	 </div>
 	 <% end %>
  	</div>
- 	<div class="col-xs-5 slogan">
+ 	<div class="col-xs-4 hidden-xs slogan">
       The real struggle of GAS (Gear Acquisition Syndrome)
  	</div>
- 	<div class="col-xs-2 links">
+ 	<div class="col-xs-8 col-xs-offset-1 col-sm-offset-0 col-sm-5 links">
  	  <!-- Button trigger modal -->
-  <%= link_to 'Contribute', '#', :data => {:toggle => 'modal', :target => '#myModal'} %>
- 	</div>
- 	<div class="col-xs-2 links">
+    <%= link_to 'Contribute', '#', :data => {:toggle => 'modal', :target => '#myModal'} %>
+    &nbsp;&nbsp; 
  	  <%= link_to 'About', about_path %>	
  	</div>
 
@@ -43,8 +42,9 @@
         </div>
         <%= simple_form_for Quote.new do |f| %>
         <div class="modal-body">       
-            <%= f.input :saying %>
-            <%= f.input :author %>
+            <%= f.input :saying, :label => "Share your struggle", :placeholder => "I want to pay my rent but I just got a new Misha Mansoor pedal." %>
+            <br />
+            <%= f.input :author, :label => "Name", :placeholder => "TheToneGameisStrong" %>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -71,10 +71,10 @@
 
 <div class="footer">
 	<div class="container">
-		<div class="col-xs-6">
+		<div class="col-xs-12 col-sm-6">
 			<%= link_to "I know this all too well, what else?", root_path, :class => 'next-quote' %>
 		</div>
-		<div class="col-xs-6 footer-blurb">
+		<div class="col-xs-12 col-sm-6 footer-blurb">
 			Created in NYC by <a href="https://github.com/vincentchin">Vincent Chin</a>
 		<br />
 			Want to build your own Splurty Web App <a href="http://thefirehoseproject.com">Learn how to code here</a>

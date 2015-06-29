@@ -22,6 +22,15 @@ h2 {
 	letter-spacing: -1.5px;
 }
 
+h2 span {
+  color: #dddddd;
+  font-family: 'ralewaylight', Helvetica, sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
 .logo:hover {
   text-decoration: none;
 }
@@ -35,7 +44,7 @@ h2 {
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
-    margin: 10px auto;
+    margin: 10px 10px;
     text-align: center;
     color: #FFF;
     font-size: 10px;
@@ -47,8 +56,7 @@ h2 {
 
  .slogan {
   font-family: 'ralewaythin',"Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-style:italic;
-  padding-top: 26px;
+  padding-top: 32px;
 }
 
 .about {
@@ -56,10 +64,8 @@ h2 {
   padding-top: 26px;
 }
 
-footer {
- 
-padding-top:26px;  
-
+.modal {
+  font-family: 'ralewaylight',"Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 
 .footer-blurb {
@@ -84,4 +90,10 @@ padding-top:26px;
   color:#f84342;
   font-family: 'ralewaythin', sans-serif;
   font-size: 20px;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
 }
